@@ -29,6 +29,6 @@
 
 ### 相关信息
 
-* [GitHub](https://github.com/AShujiao/vscode-bbs)
+* [GitHub](https://github.com/AShujiao/vscode-hub)
 
 **Enjoy!**
