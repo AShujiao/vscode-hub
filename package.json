@@ -3,7 +3,7 @@
   "displayName": "VSCodeHub",
   "description": "vscode开发者社区",
   "version": "0.0.1",
-  "publisher": "ashujiao",
+  "publisher": "manasxx",
   "engines": {
     "vscode": "^1.80.0"
   },
