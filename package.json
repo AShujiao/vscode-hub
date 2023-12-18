@@ -16,13 +16,13 @@
     "developer",
     "vscode"
   ],
-  "icon": "media/vscodehub.png",
+  "icon": "media/manzhuxing.png",
   "activationEvents": ["*"],
   "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
       "properties": {
-        "vscodehub.scale": {
+        "manzhuxing.scale": {
           "type": "number",
           "default": 1,
           "description": "缩放比例"
@@ -32,24 +32,24 @@
     "viewsContainers": {
       "activitybar": [
           {
-              "id": "vscodehub-explorer",
+              "id": "manzhuxing-explorer",
               "title": "满猪星",
-              "icon": "media/vscodehub.svg"
+              "icon": "media/manzhuxing.svg"
           }
       ]
     },
     "views": {
-        "vscodehub-explorer": [
+        "manzhuxing-explorer": [
             {
-                "id": "vscodehub.readerView",
+                "id": "manzhuxing.readerView",
                 "type": "webview",
-                "name": "vscodehub"
+                "name": "manzhuxing"
             }
         ]
     },
     "commands": [
       {
-        "command": "vscodehub.refreshEntry",
+        "command": "manzhuxing.refreshEntry",
         "title": "刷新",
         "icon": {
             "light": "resources/light/refresh.svg",
@@ -60,8 +60,8 @@
     "menus": {
       "view/title": [
           {
-            "command": "vscodehub.refreshEntry",
-            "when": "view == vscodehub.readerView",
+            "command": "manzhuxing.refreshEntry",
+            "when": "view == manzhuxing.readerView",
             "group": "navigation@0"
           }
       ]

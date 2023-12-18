@@ -2,7 +2,7 @@ import { workspace } from 'vscode';
 
 const configState = {
   get scale() {
-    return getConfig('vscodehub.scale') as number;
+    return getConfig('manzhuxing.scale') as number;
   },
 };
 

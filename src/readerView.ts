@@ -9,7 +9,7 @@ import { configState } from './utils/config';
 
 export default class ReaderViewProvider implements WebviewViewProvider {
 
-  public static readonly viewType = 'vscodehub.readerView';
+  public static readonly viewType = 'manzhuxing.readerView';
 
   private _view ? : WebviewView;
 

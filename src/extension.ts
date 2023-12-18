@@ -12,12 +12,12 @@ import {
 let proxy: any;
 export function activate(context: ExtensionContext) {
 	const readerViewProvider = new ReaderViewProvider(context.extensionUri);
-	window.registerWebviewViewProvider('vscodehub.readerView', readerViewProvider, {
+	window.registerWebviewViewProvider('manzhuxing.readerView', readerViewProvider, {
 	  webviewOptions: {
 		retainContextWhenHidden: true,
 	  },
 	});
-	commands.registerCommand('vscodehub.refreshEntry',() => readerViewProvider.refresh());
+	commands.registerCommand('manzhuxing.refreshEntry',() => readerViewProvider.refresh());
 }
 
 // This method is called when your extension is deactivated
