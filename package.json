@@ -1,8 +1,8 @@
 {
-  "name": "vscodehub",
-  "displayName": "VSCodeHub",
-  "description": "vscode开发者社区",
-  "version": "0.0.1",
+  "name": "manzhuxing",
+  "displayName": "满猪星",
+  "description": "满猪星",
+  "version": "0.0.2",
   "publisher": "manasxx",
   "engines": {
     "vscode": "^1.80.0"
@@ -33,7 +33,7 @@
       "activitybar": [
           {
               "id": "vscodehub-explorer",
-              "title": "vscode开发者社区",
+              "title": "满猪星",
               "icon": "media/vscodehub.svg"
           }
       ]
