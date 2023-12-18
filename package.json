@@ -2,7 +2,7 @@
   "name": "manzhuxing",
   "displayName": "满猪星",
   "description": "满猪星",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "manasxx",
   "engines": {
     "vscode": "^1.80.0"
